@@ -1,8 +1,24 @@
-
 body{
-  background: url(../imagenes/Fondo1.jpg);
-  background-size: 1400px 550px;
-  text-align: center;
+  background-color:#F2D22E;
+  margin: 0;
+  padding: 0;
 }
 
-      
+#advertencia{
+  top: 20em;
+  text-align: center; 
+  position: relative;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* advertencia  */
+#advertencia h1 {
+  font-size: 4em;
+}
+
+/* cuerpo de advertencia */
+#advertencia h3 {
+  font-size: 2.5em;
+  text-indent: 0px;
+}
