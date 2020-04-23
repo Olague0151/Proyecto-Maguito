@@ -1,24 +1,224 @@
-body{
-  background-color:#F2D22E;
-  margin: 0;
-  padding: 0;
+#advertencia{
+  background: #F2D22E;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
-#advertencia{
-  top: 20em;
-  text-align: center; 
+/* estilos de la imagen */
+#caution{
   position: relative;
-  margin-left: 2em;
-  margin-right: 2em;
+  width: 25%;
+  top: 23em;
 }
 
 /* advertencia  */
 #advertencia h1 {
+  position: relative;
   font-size: 4em;
+  font-weight: 600;
+  top: 5.8em;
 }
 
 /* cuerpo de advertencia */
 #advertencia h3 {
+  position: relative;
+  top: 9.4em;
   font-size: 2.5em;
-  text-indent: 0px;
+}
+
+/* estilos de explicacion */
+
+#explicacion {
+  background: #B1F5C3;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#keseso{
+  border: solid;
+  border color: black;
+  position: relative;
+  top: 8em;
+}
+#explicacion ul{
+  text-align: left;
+}
+
+#explicacion h1{
+  font-size: 3em;
+  position: relative;
+/*  background: yellow;
+  border: solid;
+  border-color: black;
+  border-radius:20px;*/
+  width: 80%;
+  left: 10%;
+  top: 4%;
+}
+
+#explicacion h3{
+   position: relative;
+   text-align: left;
+   top: 7%;
+  /* background: yellow;
+   border: solid;
+   border-color: black;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;*/
+   font-size: 2em;
+   padding: 8%;
+
+}
+/* Aviso de recuerdos */
+#aviso1 {
+  background: #EBB8B8;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#aviso1 h1{
+  position: relative;
+  font-weight: 500;
+  top: 20%;
+  font-size: 6em;
+}
+#uno {
+  border: solid;
+  border-color: black;
+  border-radius: 20px;
+  position: relative;
+  top: 30em;
+}
+
+/* Recuerdos */
+#recuerdos1 {
+  background: green;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Cosas que me gustan de ti */
+
+#gustos {
+  background: white;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#gustos h1{
+  background: yellow;
+  font-size: 4em;
+}
+#gustos ul{
+  text-align: left;
+  font-size: 2em;
+}
+#gustos h4{
+  background: yellow;
+  font-size: 3em;
+}
+#gustos h3{
+  background: blue;
+  font-size: 3em;
+}
+
+/* Promesa */
+#promesa{
+  background: #F3C49A;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#promesa h1{
+  font-size: 4em;
+  position: relative;
+  top: 10%;
+}
+
+#promesa h2{
+  font-size: 2.5em;
+  position: relative;
+  top: 11%;
+}
+
+#prom{
+  position: relative;
+  top: 15em;
+}
+
+/*  bella */
+#bella {
+  background: #E2CBFC;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+#bella h1{
+  font-size: 5em;
+  position: relative;
+  top: 15%;
+}
+#flecha{
+  width: 45em;
+  height: 45em;
+  transform: rotate(295deg);
+  position: relative;
+  top: 20em;
+}
+/* Collage */
+#collage{
+  background: white;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Cupon */
+
+#felicitacion{
+  background: black;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+#felicidades{
+  width: 40em;
+  height: 40em;
+}
+
+#cupon {
+  border-style: dashed;
+  border-color: white;
+  border-width: medium;
+  color: white;
+  margin: 10%;
+  padding: 10%;
+  height: 40em;
+}
+
+#cupon h2{
+  position: relative;
+  top: 10%
+}
+#cupon h1{
+  position: relative;
+}
+#cubiertos{
+  position: relative;
+  width: 10em;
+  height: 10em;
+  top: 1em;
 }
