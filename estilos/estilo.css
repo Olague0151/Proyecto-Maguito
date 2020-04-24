@@ -39,7 +39,6 @@
 }
 #keseso{
   border: solid;
-  border color: black;
   position: relative;
   top: 8em;
 }
@@ -153,6 +152,7 @@
 #prom{
   position: relative;
   top: 15em;
+  border: solid;
 }
 
 /*  bella */
@@ -166,22 +166,32 @@
 #bella h1{
   font-size: 5em;
   position: relative;
-  top: 15%;
+  top: 20%;
 }
 #flecha{
   width: 45em;
   height: 45em;
   transform: rotate(295deg);
   position: relative;
-  top: 20em;
+  top: 30em;
 }
 /* Collage */
+
 #collage{
-  background: white;
+  background:rgb(21, 82, 82);
   text-align: center;
-  position: relative;
-  height: 100vh;
+  position: relative; 
   width: 100vw;
+
+
+  /* display grid  */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+#collage img {
+  width: 100%;
 }
 
 /* Cupon */
