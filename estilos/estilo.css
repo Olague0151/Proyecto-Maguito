@@ -95,7 +95,7 @@
 
 /* Recuerdos */
 #recuerdos1 {
-  background: green;
+  background: white;
   text-align: center;
   position: relative;
   height: 100vh;
@@ -112,20 +112,30 @@
   width: 100vw;
 }
 #gustos h1{
-  background: yellow;
-  font-size: 4em;
+  color: white;
+  font-size: 8em;
+  position: relative;
+  top: 20%; 
+  margin: 20%;
 }
-#gustos ul{
-  text-align: left;
-  font-size: 2em;
+
+.carousel-item, active{
+  height: 100vh;
+  width: 100vw;
+  background: black;
 }
-#gustos h4{
-  background: yellow;
-  font-size: 3em;
+
+#perfil {
+  width: 100vw;
+  height: 90vh;
 }
-#gustos h3{
-  background: blue;
-  font-size: 3em;
+
+#cabello {
+  width: 100%;
+}
+
+#perfil {
+  width: 100%;
 }
 
 /* Promesa */
