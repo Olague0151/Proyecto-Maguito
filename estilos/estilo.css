@@ -94,12 +94,40 @@
 }
 
 /* Recuerdos */
+
+#recuerdos {
+  background: #A5517E;
+}
+
+#recuerdos h1{
+  font-size: 3em;
+}
+
 #recuerdos1 {
-  background: white;
   text-align: center;
   position: relative;
-  height: 100vh;
-  width: 100vw;
+  top: 5em;
+}
+
+#recuerdos2{
+  border: solid;
+  width: 100%;
+  position: relative;
+  top: 8em;
+}
+
+#recuerdos3{
+  text-align: center;
+  position: relative;
+  top: 13em;
+}
+
+#recuerdos4{
+  border: solid;
+  width: 100%;
+  position: relative;
+  top: 18em;
+  margin-bottom: 50%;
 }
 
 /* Cosas que me gustan de ti */
@@ -115,7 +143,7 @@
   color: white;
   font-size: 8em;
   position: relative;
-  top: 20%; 
+  top: 20%;
   margin: 20%;
 }
 
@@ -125,16 +153,43 @@
   background: black;
 }
 
-#perfil {
-  width: 100vw;
-  height: 90vh;
+h5 {
+  font-size: 4em;
 }
 
-#cabello {
+p {
+  font-size: 2em;
+}
+
+#alegria {
   width: 100%;
 }
 
-#perfil {
+#gestos {
+  width: 100%;
+}
+
+#labios {
+  width: 100%;
+}
+
+#unica {
+  width: 100%;
+}
+
+#atlas {
+  width: 100%;
+}
+
+#comiendo {
+  width: 100%;
+}
+
+#memiras {
+  width: 100%;
+}
+
+#cejas {
   width: 100%;
 }
 
@@ -190,7 +245,7 @@
 #collage{
   background:rgb(21, 82, 82);
   text-align: center;
-  position: relative; 
+  position: relative;
   width: 100vw;
 
 
