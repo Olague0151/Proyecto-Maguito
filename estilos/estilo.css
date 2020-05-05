@@ -389,12 +389,26 @@ p {
 #video {
   height: 100vh;
   width: 100wh;
+  background: white;
 }
 #video h1{
 text-align: center;
-
+position: relative;
+top: 6%;
+font-size: 3em;
 }
 
 #video h2{
 text-align: center;
+position: relative;
+top: 6%;
+font-size: 3em;
+}
+
+#video1 {
+  position: relative;
+  width: 90%; 
+  height: 70%;
+  left: 5%;
+  top: 12em;
 }
