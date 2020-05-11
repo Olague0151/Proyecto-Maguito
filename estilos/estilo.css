@@ -318,16 +318,15 @@ p {
 }
 
 #recuerdos5 {
+  background: #C9C948;
   text-align: center;
   position: relative;
-  top: 5em;
 }
 
 #recuerdos6{
-  border: solid;
   width: 100%;
   position: relative;
-  top: 8em;
+  top: 4em;
 }
 
 #recuerdos7{
@@ -335,15 +334,19 @@ p {
   position: relative;
   top: 13em;
 }
-
 #recuerdos8{
+  border: solid;
+  width: 100%;
+  position: relative;
+  top: 8em;
+}
+#recuerdos9{
   border: solid;
   width: 100%;
   position: relative;
   top: 18em;
   margin-bottom: 50%;
 }
-
 
 /* Cupon */
 
